@@ -118,6 +118,9 @@ class TestHomePage(BaseClass):
         assert "Success" in message
         time.sleep(5)
         self.driver.refresh()
+        print("22 12 2024")
+        print("22 12 2024")
+        print("22 12 2024")
 
     @pytest.fixture(params=HomePageData.getTestData("TestCase1"))
     def getData4(self, request):
