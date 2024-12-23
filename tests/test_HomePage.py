@@ -126,6 +126,10 @@ class TestHomePage(BaseClass):
         print("new changes in the develop branch")
         print("new changes in the develop branch")
 
+        print("the final commit from developer in USA")
+        print("the final commit from developer in USA")
+        print("the final commit from developer in USA")
+
     @pytest.fixture(params=HomePageData.getTestData("TestCase1"))
     def getData4(self, request):
         return request.param
