@@ -122,6 +122,10 @@ class TestHomePage(BaseClass):
         print("22 12 2024")
         print("22 12 2024")
 
+        print("new changes in the develop branch")
+        print("new changes in the develop branch")
+        print("new changes in the develop branch")
+
     @pytest.fixture(params=HomePageData.getTestData("TestCase1"))
     def getData4(self, request):
         return request.param
